@@ -1,0 +1,1105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: ;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* header section css start */
+.header{
+	width: 100%;
+	background: url('../img/bg.png') center top no-repeat;
+	background-size: cover;
+}
+.header .header-top{
+	width: 100%;
+	
+}
+.header .header-top .bg-light{
+	background: transparent !important;
+}
+
+.header .header-top .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	font-size: 16px;
+    font-weight: 700;
+    color: #511de5;
+    background: url("../img/link-bo.png") center bottom no-repeat;
+    background-size: contain;
+    margin-left:0px;
+}
+.header .header-top .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+	color: #511de5;
+    background: url("../img/link-bo.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header .header-top .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.header .header-top .navbar-light .navbar-nav .nav-link:hover{
+	color: #511de5;
+    background: url("../img/link-bo.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header .header-top .right .nav-link{
+	font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+.header .header-top .right .nav-link:hover{
+    color: #511de5;
+    background: url("../img/link-bo.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header .header-top .right .btn-info {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 35px;
+    background: linear-gradient(to right , #511de5 70%, #0e87fa);
+    border-radius: 35px;
+    text-transform: capitalize;
+}
+.header .header-top .right .btn-info:hover{
+    color: #1a1a1a;
+    background: transparent;
+    border: 1px solid #511de5;
+}
+/* banner section css start */
+.header .banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+.header .banner .text-right {
+    text-align: right!important;
+    padding: 0px 115px;
+}
+.header .banner h1{
+	width: 100%;
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 62px;
+	color: #1a1a1a;
+	margin-bottom: 25px;
+}
+.header .banner h1 span{
+	color:#511de5; 
+}
+.header .banner .btn-info{
+	font-size: 14px;
+    padding: 8px 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1a1a1a;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+.header .banner .btn-info:hover{
+	color: #1a1a1a;
+    background: #511de5;
+}
+.header .banner .btn-info .fa{
+	margin-left: 5px;
+}
+/* high-light section start */
+.high-light{
+	width: 100%;
+	padding: 50px 0px;
+	background: url('../img/bannar-bo.png') center top no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+.high-light .inner{
+	width: 100%;
+	text-align: center;
+}	
+.high-light .inner img {
+    position: absolute;
+    top: -161%;
+    left: 0;
+    margin-left: 16%;
+}
+.high-light .inner h4 {
+    width: 100%;
+    padding: 0px 28%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+}
+
+
+/* feature section css here */
+.feature{
+	width: 100%;
+	padding: 150px 0px 50px;
+}
+.feature .feature-inner{
+	width: 100%;
+	padding: 40px 80px 150px 115px;
+	background: url('../img/fe.png') center bottom no-repeat;
+	background-size: cover;
+}
+.feature .feature-inner h1{
+    width: 100%;
+    padding-right: 45%;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #1a1a1a; 
+    margin-bottom: 35px;
+}
+.feature .feature-inner p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 35px;
+    padding-right: 37%;
+}
+
+.feature .feature-inner h4 strong {
+	width: 100%;
+	font-size: 100px;
+	font-weight: 700;
+	color: #511de5;
+
+}
+.feature .feature-inner h4 span{
+	width: 100%;
+	font-size: 14px;
+	color: #1a1a1a;
+}
+.feature-bottom{
+	width: 100%;
+	/* padding: 80px 0px; */
+	text-align: center;
+}
+.feature-bottom img{
+	width: 75%;
+}
+/* quote section css here */
+.quote{
+	width: 100%;
+	padding: 10px 0px;
+	background:url( "../img/qtbg.png") center top no-repeat;
+	background-size: cover;
+}
+.quote .left {
+    width: 100%;
+    padding: 100px 35px;
+    background: url(../img/Qt.png) center center no-repeat;
+    background-size: contain;
+    margin: 185px 0px 150px 0px;
+}
+.quote .left p{
+	width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    margin: 15px 0px 10px 105px;
+}
+.quote .left  h4{
+	width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #fff;
+    margin: 0px 0px 10px 105px ;
+}
+
+.quote .right h2{
+	width: 100%;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #1a1a1a; 
+    margin: 235px 0px 35px;
+}
+.quote .right .btn{
+	font-size: 14px;
+    padding: 8px 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1a1a1a;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+.quote .right .btn:hover{
+	color: #1a1a1a;
+    background: #1084fa;
+}
+/* efficiency css here */
+.efficiency{
+	width: 100%;
+    padding-bottom: 100px;
+}
+.efficiency .effi-inner{
+	width: 100%;
+    margin-left: 25px;
+
+}
+
+.efficiency .effi-inner h2{
+    width: 100%;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #1a1a1a;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+.efficiency .effi-inner p{
+	width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1a1a1a;
+    margin-bottom: 35px;
+}
+.efficiency .effi-inner h6 {
+	width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+.efficiency .effi-inner h6 img{
+	margin-right: 20px;
+}
+.efficiency .effi-inner .btn-info{
+	font-size: 14px;
+    padding: 10px 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to right , #511de5 70%, #0e87fa);
+    border: 1px solid #511de5;
+    border-radius: 35px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.efficiency .effi-inner .btn{
+	margin-top: 25px !important;
+}
+.efficiency .effi-inner .btn-info:hover{
+	color: #1a1a1a;
+    background: transparent;
+}
+
+.efficiency .effi-img img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 80%;
+}
+/* portfolio section css here */
+.portfolio{
+	width: 100%;
+	padding:70px 0px 50px;
+	background: #fcfcfc;
+
+}
+.portfolio .title{
+	width: 100%;
+	text-align: center;
+}
+.portfolio .title h1{
+	width: 100%;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #1a1a1a;
+    margin-bottom:40px;
+}
+.portfolio .title p{
+	width: 100%;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #545454;
+    margin-bottom: 15px;
+}
+.portfolio .design-inner {
+	width: 100%;
+	padding: 30px 40px;
+	text-align: center;
+}
+.portfolio .bor{
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+
+}
+.design-inner img{
+	mix-blend-mode: darken;
+}
+.design-inner h4{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #1a1a1a;
+}
+.design-inner p{
+	width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #545454;
+}
+/* testimonial section css here */
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.testimonial .title {
+	width: 100%;
+	text-align: center;
+}
+.testimonial .title h2{
+	width: 100%;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #1a1a1a;
+    margin-bottom:55px;
+}
+.testimonial .testi-inner{
+	width: 100%;
+	padding: 40px 20px;
+	background: url('../img/coma.png') center top no-repeat;
+	background-size: cover;
+	box-shadow: 10px 4px 10px #ccc;
+    opacity: .5;
+
+}
+.testimonial .testi-inner .text-inner{
+	width: 100%;
+	padding: 20px 0px;
+    border-bottom: 1px solid #eaeaea;
+}
+.testimonial .testi-inner .text-inner h4{
+	width: 100%;
+    padding-bottom: 35px;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #1a1a1a;
+}
+.testimonial .testi-inner .client-inner{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.testimonial .testi-inner .client-inner h4{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+.testimonial .testi-inner .client-inner p{
+      width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 5px;
+}
+.testi-inner:hover{
+    opacity: 1;
+}
+.testi-inner:hover .text-inner h4{
+    color: #511de5;
+}
+/* footer section css here */
+.footer{
+    width: 100%;
+    padding: 100px 0px 150px;
+    background: url('../img/fbg.png') center bottom no-repeat;
+    background-size: contain;
+}
+.faq {
+    width: 100%;
+
+    padding: 90px ;
+    background: #fff;
+    box-shadow: 1px 4px 10px #ccc;
+}
+.faq .title{
+    text-align: center;
+}
+.faq .title h1{
+    width: 100%;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    margin-bottom: 75px;
+}
+
+.faq .card-header {
+    padding: 10px;
+    background-color: #fff;
+    border: 0px;
+}
+.faq .card {
+    padding: 0px 55px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+   
+}
+.faq .btn-link {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-decoration: none !important;
+    border: 0px !important;
+}
+.faq .btn-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.faq .btn-link:focus{
+    color: #0056b3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.footer .left{
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+.footer .left ul{
+    display: block;
+    margin: 75px 0px 0px;
+}
+.footer .left ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px; 
+}
+.footer .left ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.footer .right{
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+}
+.footer .right h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 75px;
+}
+/* responsive css code here */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    /* header section css here */
+
+
+    .header .header-top .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background:transparent;
+    }
+    .header .header-top .navbar-light .navbar-nav .nav-link:hover {
+        color: #511de5;
+        background: transparent;
+        background-size: contain;
+    }
+    .header .header-top .right .nav-link:hover {
+        color: #511de5;
+        background:none;
+    }
+
+
+    /* banner section css here */
+
+
+    .header .banner {
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .header .banner h1 {
+        width: 100%;
+        font-size: 31px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+    .header .banner .text-right {
+        text-align: left!important;
+        padding: 0px;
+    }
+    .header .banner .btn-info {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+        margin-bottom: 40px !important;
+    }
+    .high-light .inner img {
+        width: 53%;
+        position: absolute;
+        top: -145%;
+        left: 0;
+        margin-left: 0%;
+    }
+
+
+    /* high-lightsection css here */
+    .high-light .inner h4 {
+        padding: 0px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+/*     feature section css here*/  
+    .feature {
+        width: 100%;
+        padding: 26px 0px;
+    }
+    .feature .feature-inner h1 {
+        font-size:24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        padding-right: 0px;
+    }
+    .feature .feature-inner p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 35px;
+        padding-bottom: 75px;
+        padding-right: 0px;
+    }
+    .feature .feature-inner h4 span {
+        font-size: 9px;
+    }
+    .quote .left {
+        padding: 100px 0px 80px;
+        background: url("../img/Qt.png") center center no-repeat;
+        background-size: contain;
+        margin: 0px;
+    }
+    .feature .feature-inner {
+        padding: 0px;
+        background: url('../img/fe.png') center bottom no-repeat;
+        background-size: cover;
+    }
+    /* quote section css goes here */
+    .quote .right h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 35px;
+        margin: 0px 0px 16px;
+    }
+    .quote .left p {
+        font-size: 11px;
+        line-height: 24px;
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px 71px;
+    }
+    .quote .left h4 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 22px;
+        margin: 0px;
+        padding-left: 71px;
+    }
+
+
+    /* efficiency section css here*/
+    .efficiency {
+        padding-bottom: 0px;
+    }
+    .efficiency .effi-inner {
+        margin-left: 0px;
+    }
+    .efficiency .effi-inner h2 {
+        font-size: 25px;
+        line-height: 29px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .efficiency .effi-inner p {
+        font-size: 8px;
+        line-height: 18px;
+        margin-bottom: 35px;
+    }
+    .efficiency .effi-inner h6 {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .efficiency .effi-img img {
+        max-width:100%;
+    }
+
+
+    /* portfolio section css goes here */
+
+
+    .portfolio {
+        padding: 37px 0px;
+    }
+    .portfolio .title h1 {
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 20px;
+
+    }
+    .portfolio .title p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /* testimonial section css herre */
+
+    .testimonial {
+        padding: 20px 0px;
+    }
+    .testimonial .title h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .testimonial .testi-inner {
+        padding: 0px 20px 20px;
+        margin: 0px 0px 20px;
+    }
+    .faq {
+        padding: 20px 0px 0px;
+    }
+    .faq .title h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 0px;
+    }
+    .faq .card {
+        padding: 0px 0px;
+    }
+    .footer {
+        width: 100%;
+        padding: 0px;
+        background: url("../img/fbg.png") center bottom no-repeat;
+        background-size: contain;
+    }
+    .footer .left ul {
+        display: block;
+        margin: 0px;
+    }
+    .footer .left {
+        margin-top: 0px;
+    }
+    .footer .right {
+        margin-top: 0px;
+    }
+    .footer .right h5 {
+        margin-top:0px;
+        font-size: 9px;
+
+    }
+    .faq .btn-link {
+        font-size: 14px;
+    }
+    .footer .left ul li a {
+        font-size: 10px;
+    }
+    
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* headerd section css goes here */
+    .header .header-top .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background:transparent;
+    }
+    .header .header-top .navbar-light .navbar-nav .nav-link:hover {
+        color: #511de5;
+        background: transparent;
+    }
+    .header .header-top .right .nav-link:hover {
+        color: #511de5;
+        background:none;
+    }
+    .header .banner {
+        padding: 0px;
+    }
+    .header .banner .text-right {
+        text-align: right!important;
+        padding: 0px;
+    }
+
+
+    /* banner section css goes here */
+    .header .banner h1 {
+        font-size: 30px;
+        line-height: 39px;
+        margin-bottom: 25px;
+    }
+    .header .banner .text-right {
+        text-align: left!important;
+        padding: 0px;
+    }
+    .header .banner .btn-info {
+        width:45%;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+        margin-bottom: 40px !important;
+    }
+
+    /* high-light section css goes here */
+
+    .high-light .inner h4 {
+        padding: 0px 17% 0px 27%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .high-light .inner img {
+        width: 53%;
+        position: absolute;
+        top: -114%;
+        left: 0;
+        margin-left: 0%;
+    }
+
+
+    /* feature section css goes here */
+    .feature {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .feature .feature-inner {
+        width: 100%;
+        padding: 0px;
+    }
+    .feature .feature-inner h1 {
+        padding-right: 0%;
+        font-size: 24px;
+        line-height: 324x;
+    }
+
+
+    /* quote section css goes here */
+    .quote .left {
+        margin: 0px;
+        padding-left: 142px;
+    }
+    .quote .right h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 30px 0px 20px;
+    }
+    .quote .left p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0px;
+    }
+    .quote .left h4 {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0px ;
+    }
+
+
+    /* efficiency section css goes here */
+    .efficiency {
+        padding-bottom: 0px;
+    }
+    .efficiency .effi-inner h2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .efficiency .effi-inner p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+    .efficiency .effi-inner {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    /* portfolio section css here */
+    .portfolio .title h1 {
+        font-size: 37px;
+        line-height: 44px;
+        margin-bottom: 40px;
+    }
+    .portfolio .title p {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    /* testimonial section css here */
+    .testimonial {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .testimonial .testi-inner .text-inner h4 {
+        font-size: 31px;
+        line-height: 37px;
+    }
+    
+
+    /* faq section css here */
+
+    .faq {
+        padding: 39px 0px;
+    }
+    .faq .title h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 35px;
+    }
+    .card-body {
+        padding: 0.25rem !important;
+    }
+    .faq .card-header {
+        padding: 6px;
+    }
+    .faq .btn-link {
+        padding: 0px;
+    }
+
+    /* footer section css here */
+    .footer {
+        padding: 20px 0px 10px;
+    }
+    .footer .left {
+        margin-top: 0px;
+    }
+    .footer .left ul {
+        display: block;
+        margin: 5px;
+    }
+    .footer .left ul li a {
+        font-size: 11px;
+    }
+    .footer .right {
+        margin-top: 0px;
+    }
+    .footer .right h5 {
+        font-size: 9px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 14px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 767px) and (max-width: 1024px) {
+
+
+    /* header section css here */
+
+    .header .header-top .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        background:transparent;
+    }
+    .header .header-top .navbar-light .navbar-nav .nav-link:hover {
+        color: #511de5;
+        background: transparent;
+    }
+    .header .header-top .right .nav-link:hover {
+        color: #511de5;
+        background:none;
+    }
+    .header .banner {
+        padding: 0px 0px 20px;
+    }
+    .header .banner .text-right {
+        text-align: right!important;
+        padding: 0px;
+    }
+
+    /* high-light section css here */
+    .high-light .inner img {
+        position: absolute;
+        top: -98%;
+        left: 0;
+        margin-left: 4%;
+    }
+    .high-light .inner h4 {
+        padding: 0px 23%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /* feature section css here */
+    .feature {
+        padding: 50px 0px;
+    }
+    .feature .feature-inner h1 {
+        padding: 10px 0px;
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+
+    /* quote section css here */
+
+    .quote .left {
+        width: 100%;
+        padding: 100px 35px;
+        margin: 0px;
+    }
+    .quote .right h2 {
+        width: 100%;
+        font-size: 42px;
+        line-height: 52px;
+        margin: 0px;
+    }
+    .quote .left p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 13px 17px;
+    }
+    .quote .left h4 {
+        font-size: 13px;
+        line-height: 26px;
+        margin: 0px 0px 0px 18px;
+    }
+    .quote .right h2 {
+         font-size: 35px;
+        line-height: 45px;
+        margin-top: 79px;
+        margin-bottom: 25px;
+    }
+
+
+    /* efficiency section css here  */
+
+
+    .efficiency {
+        padding-bottom: 0px;
+    }
+
+    .efficiency .effi-inner {
+        margin-left: 0px;
+    }
+    .efficiency .effi-inner h2 {
+        font-size: 31px;
+        line-height: 41px;
+        margin-bottom: 35px;
+        margin-top: 30px;
+    }
+    .efficiency .effi-inner p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 35px;
+    }
+    .efficiency .effi-inner h6 {
+        font-size: 10px;
+    }
+    .efficiency .effi-inner .btn-info {
+        font-size: 11px;
+        padding: 15px 8px;
+    }
+
+.efficiency .effi-img img {
+        max-width: 100%;
+        margin-top: 205px;
+    }
+    .portfolio .title h1 {
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    .portfolio .title p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .design-inner h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .design-inner p {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+
+    /* testimonial section  css here */
+    .testimonial {
+        padding: 28px 0px 0px 0px;
+    }
+    .faq .title h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .faq {
+        padding: 30px 90px;
+    }
+
+
+    /* footer section css here */
+
+
+    .footer {
+        padding: 44px 76px 0px;
+    }
+    .footer .left {
+        margin-top:0px;
+    }
+    .footer .left ul {
+        margin: 0px;
+    }
+    .footer .left ul li a {
+        margin-right:25px;
+    }
+    .footer .right {
+        margin: 0px;
+    }
+    .footer .right h5 {
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 5px;
+    }
+}
